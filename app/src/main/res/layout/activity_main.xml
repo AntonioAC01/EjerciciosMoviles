@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_fondo"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:paddingTop="16dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:text="Ejercicios"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content" />
+
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardreciclaje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardElevation="6dp"
+                app:contentPaddingRight="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_ucv"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+
+                    <Button
+                        android:id="@+id/btnEjercicio1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@color/red"
+                        android:text="Ejercicio 1"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardfigura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardElevation="6dp"
+                app:contentPaddingRight="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_ucv"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+
+                    <Button
+                        android:id="@+id/btnEjercicio2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@color/red"
+                        android:text="Ejercicio 2"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cuidarse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardElevation="6dp"
+                app:contentPaddingRight="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_ucv"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+
+                    <Button
+                        android:id="@+id/btnEjercicio3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@color/red"
+                        android:text="Ejercicio 3"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardtipocarton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardElevation="6dp"
+                app:contentPaddingRight="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_ucv"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+
+                    <Button
+                        android:id="@+id/btnEjercicio4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@color/red"
+                        android:text="Ejercicio 4"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/tiporeciclaje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardElevation="6dp"
+                app:contentPaddingRight="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_ucv"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+
+                    <Button
+                        android:id="@+id/btnEjercicio5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@color/red"
+                        android:text="Ejercicio 5"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/carddesarrolladores"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardElevation="6dp"
+                app:contentPaddingRight="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_ucv"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+
+                    <Button
+                        android:id="@+id/btnEjercicio6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@color/red"
+                        android:text="Ejercicio 6"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardElevation="6dp"
+                app:contentPaddingRight="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_ucv"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+
+                    <Button
+                        android:id="@+id/btnEjercicio7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@color/red"
+                        android:text="Ejercicio 7"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardElevation="6dp"
+                app:contentPaddingRight="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_ucv"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+
+                    <Button
+                        android:id="@+id/btnEjercicio8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@color/red"
+                        android:text="Ejercicio 8"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardElevation="6dp"
+                app:contentPaddingRight="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_ucv"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+
+                    <Button
+                        android:id="@+id/btnEjercicio9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@color/red"
+                        android:text="Ejercicio 9"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardElevation="6dp"
+                app:contentPaddingRight="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_ucv"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+
+                    <Button
+                        android:id="@+id/btnEjercicio10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@color/red"
+                        android:text="Ejercicio 10"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardElevation="6dp"
+                app:contentPaddingRight="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_ucv"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+
+                    <Button
+                        android:id="@+id/btnEjercicio11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@color/red"
+                        android:text="Ejercicio 11"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                app:cardElevation="6dp"
+                app:contentPaddingRight="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+
+                        android:src="@drawable/ic_ucv"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+
+                    <Button
+                        android:id="@+id/btnEjercicio12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@color/red"
+                        android:text="Ejercicio 12"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
